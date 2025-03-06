@@ -7,6 +7,7 @@ return {
 	require("plugins.specs.vimtex"),
 	require("plugins.specs.homekey"),
 
+	require("plugins.specs.cmake-tools"),
 	require("plugins.specs.cmp"),
 	require("plugins.specs.lsp"),
 	require("plugins.specs.lua-snippets"),

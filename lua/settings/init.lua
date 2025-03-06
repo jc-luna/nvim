@@ -20,3 +20,4 @@ opts.mouse = ""
 
 require("plugins.configs.cmp")
 require("plugins.configs.lualine")
+require("plugins.configs.cmake-tools")
