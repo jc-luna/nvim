@@ -20,4 +20,6 @@ opts.mouse = ""
 
 require("plugins.configs.cmp")
 require("plugins.configs.lualine")
+--require("plugins.configs.roblox.luau-tree")
+--require("plugins.configs.roblox.rojo")
 require("plugins.configs.cmake-tools")
