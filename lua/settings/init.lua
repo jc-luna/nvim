@@ -15,7 +15,6 @@ opts.tabstop = 4
 opts.softtabstop = 4
 opts.shiftwidth = 4
 
-vim.g.vimtex_quickfix_open_on_warning = 0
 opts.mouse = ""
 
 require("plugins.configs.cmp")
