@@ -27,6 +27,7 @@ require("plugins.configs.lualine")
 --require("plugins.configs.roblox.luau-tree")
 --require("plugins.configs.roblox.rojo")
 require("plugins.configs.cmake-tools")
+require("plugins.configs.neo-tree")
 
 local ls = require("luasnip")
 ls.add_snippets("py", require("snippet.python.common"))
