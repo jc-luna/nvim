@@ -1,6 +1,8 @@
-
 -- Catppuccin
-require("catppuccin").setup({
+local catppuccin = require("catppuccin")
+local mocha = require("catppuccin.palettes.mocha")
+
+catppuccin.setup({
     integrations = {
         cmp = true,
         gitsigns = true,
@@ -14,3 +16,8 @@ require("catppuccin").setup({
         },
     }
 })
+
+-- Color overrides
+vim.api.nvim_set_hl(0, "LineNrAbove", { fg=mocha.lavender, bold=false })
+vim.api.nvim_set_hl(0, "LineNr", { fg=mocha.sky, bold=true })
+vim.api.nvim_set_hl(0, "LineNrBelow", { fg=mocha.lavender, bold=false })

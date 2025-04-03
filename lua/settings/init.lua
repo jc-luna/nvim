@@ -1,5 +1,5 @@
 require("settings.theme")
-require("settings.keymaps")
+require("settings.keymaps").init()
 require("plugins.configs.lsp")
 
 local opts = vim.opt
@@ -11,14 +11,14 @@ vim.cmd.highlight("NonText guibg = none")
 vim.cmd.highlight("Normal cterm = none")
 vim.cmd.highlight("NonText cterm = none")
 
-opts.cursorline = true
-opts.number = true
+opts.relativenumber = true
 opts.termguicolors = true
 
 -- Tab Settings
 opts.tabstop = 4
 opts.softtabstop = 4
 opts.shiftwidth = 4
+opts.copyindent = true
 
 opts.mouse = ""
 
