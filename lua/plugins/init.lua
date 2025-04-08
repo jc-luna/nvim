@@ -6,6 +6,7 @@ return {
 	require("plugins.specs.neo-tree"),
 	require("plugins.specs.vimtex"),
 	require("plugins.specs.homekey"),
+	require("plugins.specs.mini-surround"),
 	require("plugins.specs.kiwi"),
 
 	require("plugins.specs.cmake-tools"),

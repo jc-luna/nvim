@@ -29,5 +29,8 @@ require("plugins.configs.lualine")
 require("plugins.configs.cmake-tools")
 require("plugins.configs.neo-tree")
 
+require("mini.surround").setup()
+require("plugins.configs.mini-surround")
+
 local ls = require("luasnip")
 ls.add_snippets("py", require("snippet.python.common"))
