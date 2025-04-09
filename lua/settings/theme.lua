@@ -9,11 +9,14 @@ catppuccin.setup({
         nvimtree = true,
         treesitter = true,
         notify = false,
-	neotree = true,
-        mini = {
-            enabled = true,
-            indentscope_color = "",
-        },
+		neotree = true,
+		mini = {
+			enabled = true,
+			indentscope_color = "",
+		},
+		telescope = {
+			enabled = true
+		}
     }
 })
 

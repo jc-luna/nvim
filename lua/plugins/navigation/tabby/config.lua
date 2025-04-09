@@ -13,7 +13,7 @@ local theme = {
 	fill = { --[[fg = "#11111b", ]]bg = "#11111b" },
 	head = { bg = "#585b70" },
 	current_tab = { bg = "#cba6f7" },
-	tab = { bg = "#1e1e2e" },
+	tab = { bg = "#585b70" },
 	win = "TabLine",
 	tail = { bg = "#585b70" },
 }
@@ -31,7 +31,7 @@ require("tabby").setup({
 					line.sep(
 						"█",
 						tab.is_current() and theme.current_tab or theme.tab,
-						theme.tab
+						theme.fill
 					),
 					{
 						tab.is_current() and "" or "󰆣",
