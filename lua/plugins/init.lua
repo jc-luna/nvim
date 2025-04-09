@@ -9,6 +9,7 @@ return {
 
 	require("plugins.navigation.neo-tree"),
 	require("plugins.navigation.lualine"),
+	require("plugins.navigation.tabby"),
 	require("plugins.navigation.telescope"),
 	require("plugins.navigation.homekey"),
 
