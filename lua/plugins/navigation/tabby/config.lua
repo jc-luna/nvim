@@ -7,14 +7,15 @@ local function getFname(s)
 	return comps[#comps]
 end
 
+-- Return the config!
 return function()
 
 local theme = {
 	fill = { --[[fg = "#11111b", ]]bg = "#11111b" },
 	head = { bg = "#585b70" },
 	current_tab = { bg = "#cba6f7" },
-	tab = { bg = "#585b70" },
-	win = "TabLine",
+	win = { bg = "#585b70" },
+	tab = { bg = "#313244" },
 	tail = { bg = "#585b70" },
 }
 
@@ -44,10 +45,6 @@ require("tabby").setup({
 					{
 						--getFname(tab.name()),
 						tab.name(),
-						hl = theme.tab
-					},
-					{
-						tab.close_btn(""),
 						hl = theme.tab
 					},
 					line.sep("█", theme.tab, theme.fill),

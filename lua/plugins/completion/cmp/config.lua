@@ -13,7 +13,7 @@ cmp.setup({
 		name = "luasnip",
 	},
 	}),
-   mapping = cmp.mapping.preset.insert({
+	mapping = cmp.mapping.preset.insert({
 	   ["<C-Space>"] = cmp.mapping.complete(),
 	   ["<C-u>"] = cmp.mapping.scroll_docs(-4),
 	   ["<C-d>"] = cmp.mapping.scroll_docs(4),
@@ -40,14 +40,20 @@ cmp.setup({
 				fallback()
 			end
 		end, { "i", "s" }),
+	}),
 
-   }),
-   snippet = {
+	snippet = {
 		expand = function(args)
 			local ls = prequire("luasnip")
 			if not ls then return end
 
 			ls.lsp_expand(args.body)
 		end
-   }
+	},
+
+	window = {
+		completion = cmp.config.window.bordered(),
+		documentation = cmp.config.window.bordered()
+
+	}
 })
