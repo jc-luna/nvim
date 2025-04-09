@@ -7,11 +7,15 @@ local binds = {
 	end
 }
 
+local init = function()
+	for _, method in pairs(binds) do
+		method()
+	end
+end
+
 return {
 	Binds = binds,
-	init = function()
-		for _, method in pairs(binds) do
-			method()
-		end
-	end
+	Init = init,
+
+	init()
 }

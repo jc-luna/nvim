@@ -5,7 +5,7 @@ return {
 	require("plugins.completion.cmp"),
 	require("plugins.completion.lsp"),
 	require("plugins.completion.lua-snippets"),
-	require("plugins.completion.treesitter"),
+	require("plugins.completion.tree-sitter"),
 
 	require("plugins.navigation.neo-tree"),
 	require("plugins.navigation.lualine"),

@@ -19,5 +19,5 @@ catppuccin.setup({
 
 -- Color overrides
 vim.api.nvim_set_hl(0, "LineNrAbove", { fg=mocha.lavender, bold=false })
-vim.api.nvim_set_hl(0, "LineNr", { fg=mocha.sky, bold=true })
+vim.api.nvim_set_hl(0, "LineNr", { fg=mocha.lavender, bold=true })
 vim.api.nvim_set_hl(0, "LineNrBelow", { fg=mocha.lavender, bold=false })
