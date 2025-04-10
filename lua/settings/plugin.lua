@@ -9,3 +9,5 @@ require("plugins.configs.mini-surround")
 
 local ls = require("luasnip")
 ls.add_snippets("py", require("snippet.python.common"))
+
+vim.treesitter.language.register("json", "simconf")

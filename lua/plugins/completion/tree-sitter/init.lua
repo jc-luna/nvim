@@ -4,11 +4,20 @@ return {
 		local cfg = require("nvim-treesitter.configs")
 		cfg.setup({
 			ensure_installed = {
-				"c", "lua",
+				"c", "cpp", "cmake",
+				"lua", "luau",
+				"python",
+				"latex",
 				"vim", "vimdoc",
 				"query", "markdown",
-				"markdown_inline"
+				"markdown_inline",
+				"json"
+			},
+
+			highlight = {
+				enable = true
 			}
 		})
+
 	end
 }
