@@ -17,7 +17,8 @@ catppuccin.setup({
 		telescope = {
 			enabled = true
 		}
-    }
+    },
+    compile_path = vim.fn.stdpath "cache" .. "/catppuccin"
 })
 
 -- Color overrides

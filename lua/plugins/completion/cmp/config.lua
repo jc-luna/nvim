@@ -44,7 +44,7 @@ cmp.setup({
 
 	snippet = {
 		expand = function(args)
-			local ls = prequire("luasnip")
+			local ls = require("luasnip")
 			if not ls then return end
 
 			ls.lsp_expand(args.body)
