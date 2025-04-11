@@ -6,6 +6,7 @@ require("plugins.configs.cmake-tools")
 
 require("mini.surround").setup()
 require("plugins.configs.mini-surround")
+require("plugins.completion.autopairs.config")
 
 local ls = require("luasnip")
 ls.add_snippets("py", require("snippet.python.common"))

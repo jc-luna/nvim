@@ -6,6 +6,7 @@ return {
 	require("plugins.completion.lsp"),
 	require("plugins.completion.lua-snippets"),
 	require("plugins.completion.tree-sitter"),
+	require("plugins.completion.autopairs"),
 
 	require("plugins.navigation.neo-tree"),
 	require("plugins.navigation.lualine"),
