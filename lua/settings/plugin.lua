@@ -11,4 +11,9 @@ require("plugins.completion.autopairs.config")
 local ls = require("luasnip")
 ls.add_snippets("py", require("snippet.python.common"))
 
+vim.filetype.add({
+	extension = {
+		simconf = "simconf"
+	},
+})
 vim.treesitter.language.register("json", "simconf")
