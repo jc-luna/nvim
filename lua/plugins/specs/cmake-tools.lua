@@ -1,4 +1,5 @@
 return {
 	"civitasv/cmake-tools.nvim",
-	opts = {}
+	opts = {},
+	lazy = true
 }
