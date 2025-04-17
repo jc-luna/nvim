@@ -11,6 +11,9 @@ require("plugins.completion.autopairs.config")
 local ls = require("luasnip")
 ls.add_snippets("python", require("snippet.python.common"))
 
+ls.add_snippets("tex", require("snippet.latex.preamble"))
+ls.add_snippets("tex", require("snippet.latex.macros"))
+
 vim.filetype.add({
 	extension = {
 		simconf = "simconf"
