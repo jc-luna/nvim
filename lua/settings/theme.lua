@@ -16,7 +16,8 @@ catppuccin.setup({
 		},
 		telescope = {
 			enabled = true
-		}
+		},
+		blink_cmp = true
     },
     compile_path = vim.fn.stdpath "cache" .. "/catppuccin"
 })

@@ -1,8 +1,6 @@
 local ls = require("luasnip")
-local s = ls.snippet
 local sn = ls.snippet_node
 local isn = ls.indent_snippet_node
-local t = ls.text_node
 local i = ls.insert_node
 local f = ls.function_node
 local c = ls.choice_node
@@ -27,7 +25,7 @@ local ms = ls.multi_snippet
 local k = require("luasnip.nodes.key_indexer").new_key
 
 return {
-	s("ifnamemain", {
-		t({"if __name__ == \"__main__\":", "<Tab>"}, i(1))
+	ls.snippet("ifnamemain", {
+		ls.text_node({"if __name__ == \"__main__\":", "\t"}, i(1))
 	})
 }

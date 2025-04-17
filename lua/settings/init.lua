@@ -4,7 +4,7 @@ require("settings.theme")
 require("settings.keymaps")
 
 require("plugins.completion.lsp.config")
-require("plugins.completion.cmp.config")
+--require("plugins.completion.cmp.config")
 
 local opts = vim.opt
 

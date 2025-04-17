@@ -9,7 +9,7 @@ require("plugins.configs.mini-surround")
 require("plugins.completion.autopairs.config")
 
 local ls = require("luasnip")
-ls.add_snippets("py", require("snippet.python.common"))
+ls.add_snippets("python", require("snippet.python.common"))
 
 vim.filetype.add({
 	extension = {
