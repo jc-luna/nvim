@@ -13,6 +13,7 @@ ls.add_snippets("python", require("snippet.python.common"))
 
 ls.add_snippets("tex", require("snippet.latex.preamble"))
 ls.add_snippets("tex", require("snippet.latex.macros"))
+ls.add_snippets("markdown", require("snippet.markdown"))
 
 vim.filetype.add({
 	extension = {
