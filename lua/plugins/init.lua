@@ -18,6 +18,7 @@ return {
 	require("plugins.specs.vimtex"),
 	require("plugins.specs.mini-surround"),
 	require("plugins.specs.kiwi"),
+	require("plugins.specs.image"),
 
 	require("plugins.specs.cmake-tools"),
 
