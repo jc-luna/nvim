@@ -1,3 +1,5 @@
 # My Neovim Config
 
-nvim!
+Neovim built from scratch and for my purposes.
+
+![yuyuko](icon.png)
