@@ -12,8 +12,8 @@ return {
 			"\\usepackage{amssymb}",
 			"\\usepackage{bbold}",
 			"\\usepackage{graphicx}",
-			"\\usepackage{bookmark}",
 			"\\usepackage[colorlinks=true,linkcolor=black,urlcolor=black,bookmarksopen=true]{hyperref}",
+			"\\usepackage{bookmark}",
 			""
 		})
 	}),

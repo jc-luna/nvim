@@ -39,6 +39,10 @@ require("tabby").setup({
 						hl = theme.tab
 					},
 					{
+						tab.current_win().buf().file_icon(),
+						hl = theme.tab
+					},
+					{
 						tab.number(),
 						hl = theme.tab
 					},
