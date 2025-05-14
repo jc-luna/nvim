@@ -10,7 +10,11 @@ return {
 
 	opts = {
 		keymap = {
-			preset = "super-tab"
+			preset = "super-tab",
+			["<Up>"] = {},
+			["<Down>"] = {},
+			["<S-A-k>"] = {"select_prev"},
+			["<S-A-j>"] = {"select_next"}
 		},
 
 		appearance = {
@@ -31,7 +35,7 @@ return {
 
 		sources = {
 		  default = {
-		  	  "lsp", "path", "snippets", "buffer"
+		  	  "lsp", "path", "snippets"
 		  },
 		},
 

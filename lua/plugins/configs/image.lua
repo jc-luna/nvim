@@ -1,3 +1,7 @@
+-- I could check for the actual install of kitteh
+-- but I'll just check for compat OS instead :3
+if package.config:sub(1, 1) ~= "/" then return end
+
 require("image").setup({
 	backend = "kitty",
 	processor = "magick_cli",
