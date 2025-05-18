@@ -22,8 +22,7 @@ return {
 
 	require("plugins.specs.cmake-tools"),
 
---[[	require("plugins.specs.roblox.rojo"),
+	require("plugins.specs.roblox.rojo"),
 	require("plugins.specs.roblox.luau-lsp"),
-	require("plugins.specs.roblox.luau-tree"),]]--
-
+	require("plugins.specs.roblox.luau-tree")
 }

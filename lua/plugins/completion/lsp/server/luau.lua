@@ -1,5 +1,3 @@
-
-
 local luauLSP = require("luau-lsp")
 luauLSP.setup = {
 	platform = {
