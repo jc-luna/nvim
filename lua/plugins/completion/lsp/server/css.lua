@@ -1,1 +1,1 @@
-require("lspconfig").css.setup({})
+require("lspconfig").cssls.setup({})
