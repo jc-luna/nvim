@@ -15,6 +15,9 @@ vim.cmd.highlight("NonText guibg = none")
 vim.cmd.highlight("Normal cterm = none")
 vim.cmd.highlight("NonText cterm = none")
 
+vim.cmd.highlight("TabLine guibg = none")
+vim.cmd.highlight("TabLineFill guibg = none")
+
 opts.relativenumber = true
 opts.number = true
 opts.termguicolors = true

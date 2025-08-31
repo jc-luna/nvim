@@ -2,7 +2,6 @@
 return {
 	require("plugins.themes.catppuccin.init"),
 
-	--require("plugins.completion.cmp"),
 	require("plugins.completion.blink"),
 	require("plugins.completion.lsp"),
 	require("plugins.completion.lua-snippets"),
@@ -12,7 +11,7 @@ return {
 
 	require("plugins.navigation.neo-tree"),
 	require("plugins.navigation.lualine"),
-	require("plugins.navigation.tabby"),
+	--require("plugins.navigation.tabby"),
 	require("plugins.navigation.telescope"),
 	require("plugins.navigation.homekey"),
 
