@@ -1,6 +1,6 @@
 require("lspconfig").clangd.setup{
 	cmd = { "clangd" },
-	filetypes = { "cpp", "h" },
+	filetypes = { "c", "cpp", "h" },
 	init_options = {
 		headerInsertion = "never"
 --		compilationDatabasePath = "./build/",
