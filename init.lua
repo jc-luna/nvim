@@ -1,2 +1,3 @@
 require("lazy.init")
-require("settings.init")
+require("settings")
+require("lsp")
