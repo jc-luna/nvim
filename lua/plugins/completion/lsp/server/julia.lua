@@ -1,4 +1,4 @@
-require("lspconfig").julials.setup({
+vim.lsp.config.julials = {
     cmd = {
         "julia",
         "--project=".."~/.julia/environments/lsp/",
@@ -35,4 +35,6 @@ require("lspconfig").julials.setup({
     filetypes = { 'julia' },
     root_markers = { "Project.toml", "JuliaProject.toml" },
     settings = {}
-})
+}
+
+vim.lsp.enable("julials")

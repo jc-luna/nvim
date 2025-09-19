@@ -1,5 +1,4 @@
-local lspconfig = require("lspconfig")
-lspconfig.pylsp.setup {
+vim.lsp.config.pylsp = {
 	on_attach = custom_attach,
 	settings = {
 		pylsp = {
@@ -16,3 +15,5 @@ lspconfig.pylsp.setup {
 	},
 	capabilities = capabilities
 }
+
+vim.lsp.enable("pylsp")
