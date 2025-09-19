@@ -3,9 +3,6 @@ vim.loader.enable()
 require("settings.theme")
 require("settings.keymaps")
 
-require("plugins.completion.lsp.config")
---require("plugins.completion.cmp.config")
-
 local opts = vim.opt
 
 vim.cmd.colorscheme("catppuccin-mocha")
