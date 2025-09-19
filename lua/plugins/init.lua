@@ -3,7 +3,6 @@ return {
 	require("plugins.themes.catppuccin.init"),
 
 	require("plugins.completion.blink"),
-	require("plugins.completion.lsp"),
 	require("plugins.completion.lua-snippets"),
 	require("plugins.completion.tree-sitter"),
 	require("plugins.completion.autopairs"),
