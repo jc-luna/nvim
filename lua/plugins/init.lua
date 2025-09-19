@@ -5,7 +5,6 @@ return {
 	require("plugins.completion.blink"),
 	require("plugins.completion.lsp"),
 	require("plugins.completion.lua-snippets"),
-	--require("plugins.completion.lua-snippets.latex"),
 	require("plugins.completion.tree-sitter"),
 	require("plugins.completion.autopairs"),
 
