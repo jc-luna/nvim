@@ -15,6 +15,9 @@ return {
 			"*.synctex.gz",
 			"*.out.ps",
 			"*.synctex(busy)",
+			"*.bbl",
+			"*.blg",
+			"*.toc",
 			"*.pdf"
 		})
 	})
