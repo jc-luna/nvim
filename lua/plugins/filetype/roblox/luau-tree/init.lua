@@ -1,3 +1,4 @@
 return {
-	"zilibobi/luau-tree.nvim"
+	"zilibobi/luau-tree.nvim",
+	lazy = true
 }

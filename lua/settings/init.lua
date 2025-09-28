@@ -28,4 +28,4 @@ opts.copyindent = true
 
 opts.mouse = ""
 
-require("settings.plugin")
+require("settings.plugins")

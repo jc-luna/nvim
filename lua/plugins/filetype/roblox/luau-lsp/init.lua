@@ -6,4 +6,5 @@ return {
 	dependencies = {
 		"nvim-lua/plenary.nvim",
 	},
+	lazy = true
 }
