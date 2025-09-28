@@ -7,7 +7,6 @@ return {
 				"c", "cpp", "cmake",
 				"lua", "luau",
 				"python",
-				"latex",
 				"vim", "vimdoc",
 				"query", "markdown",
 				"markdown_inline",
