@@ -12,13 +12,11 @@ return {
 	require("plugins.navigation.homekey"),
 	require("plugins.navigation.tmux-navigation"),
 
-	require("plugins.specs.vimtex"),
+	require("plugins.filetype.vimtex"),
 	require("plugins.specs.mini-surround"),
-	require("plugins.specs.kiwi"),
 
-	require("plugins.specs.cmake-tools"),
-
-	require("plugins.specs.roblox.rojo"),
-	require("plugins.specs.roblox.luau-lsp"),
-	require("plugins.specs.roblox.luau-tree")
+	require("plugins.filetype.cmake-tools"),
+	require("plugins.filetype.roblox.rojo"),
+	require("plugins.filetype.roblox.luau-lsp"),
+	require("plugins.filetype.roblox.luau-tree")
 }
