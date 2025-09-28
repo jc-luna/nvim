@@ -1,4 +1,3 @@
-require("plugins.navigation.neo-tree.config")
 require("plugins.navigation.lualine.config")
 --require("plugins.configs.roblox.luau-tree")
 --require("plugins.configs.roblox.rojo")

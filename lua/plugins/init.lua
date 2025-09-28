@@ -7,9 +7,7 @@ return {
 	require("plugins.completion.tree-sitter"),
 	require("plugins.completion.autopairs"),
 
-	require("plugins.navigation.neo-tree"),
 	require("plugins.navigation.lualine"),
-	--require("plugins.navigation.tabby"),
 	require("plugins.navigation.telescope"),
 	require("plugins.navigation.homekey"),
 	require("plugins.navigation.tmux-navigation"),
@@ -17,7 +15,6 @@ return {
 	require("plugins.specs.vimtex"),
 	require("plugins.specs.mini-surround"),
 	require("plugins.specs.kiwi"),
-	--require("plugins.specs.image"),
 
 	require("plugins.specs.cmake-tools"),
 
