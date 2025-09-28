@@ -12,6 +12,7 @@ return {
 	--require("plugins.navigation.tabby"),
 	require("plugins.navigation.telescope"),
 	require("plugins.navigation.homekey"),
+	require("plugins.navigation.tmux-navigation"),
 
 	require("plugins.specs.vimtex"),
 	require("plugins.specs.mini-surround"),
