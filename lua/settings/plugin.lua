@@ -1,7 +1,5 @@
-require("plugins.navigation.lualine.config")
-
 require("mini.surround").setup()
-require("plugins.configs.mini-surround")
+require("plugins.extra.mini-surround")
 require("plugins.completion.autopairs.config")
 
 local ls = require("luasnip")
