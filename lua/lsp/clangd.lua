@@ -3,8 +3,6 @@ vim.lsp.config.clangd = {
 	filetypes = { "c", "cpp", "h" },
 	init_options = {
 		headerInsertion = "never"
---		compilationDatabasePath = "./build/",
---		compileCommandsDir = "./build/compile_commands.json"
 	}
 }
 
