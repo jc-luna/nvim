@@ -19,8 +19,10 @@ catppuccin.setup({
 		},
 		blink_cmp = true
     },
-    compile_path = vim.fn.stdpath "cache" .. "/catppuccin"
+    compile_path = vim.fn.stdpath("cache") .. "/catppuccin"
 })
+
+vim.cmd.colorscheme("catppuccin-mocha")
 
 vim.opt.relativenumber = true
 vim.opt.number = true
@@ -37,3 +39,11 @@ vim.api.nvim_set_hl(0, "LineNr", { fg=mocha.lavender, bold=true })
 vim.api.nvim_set_hl(0, "CursorLineNr", { fg=mocha.lavender, bold=true })
 vim.api.nvim_set_hl(0, "LineNrBelow", { fg=mocha.lavender, bold=false })
 vim.api.nvim_set_hl(0, "MsgArea", { bg=mocha.crust, bold=false })
+
+vim.cmd.highlight("Normal guibg = none")
+vim.cmd.highlight("NonText guibg = none")
+vim.cmd.highlight("Normal cterm = none")
+vim.cmd.highlight("NonText cterm = none")
+
+vim.cmd.highlight("TabLine guibg = none")
+vim.cmd.highlight("TabLineFill guibg = none")

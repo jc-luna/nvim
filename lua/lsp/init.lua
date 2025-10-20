@@ -8,7 +8,4 @@ return {
 
 	require("lsp.lua"),
 	require("lsp.luau"),
-
-	require("lsp.html"),
-	require("lsp.css")
 }
