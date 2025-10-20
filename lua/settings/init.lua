@@ -14,18 +14,12 @@ vim.cmd.highlight("NonText cterm = none")
 vim.cmd.highlight("TabLine guibg = none")
 vim.cmd.highlight("TabLineFill guibg = none")
 
-local opts = vim.opt
-opts.relativenumber = true
-opts.number = true
-opts.termguicolors = true
-opts.showtabline = 2
-
 -- Tab Settings
-opts.tabstop = 4
-opts.softtabstop = 4
-opts.shiftwidth = 4
-opts.copyindent = true
+vim.opt.tabstop = 4
+vim.opt.softtabstop = 4
+vim.opt.shiftwidth = 4
+vim.opt.copyindent = true
 
-opts.mouse = ""
+vim.opt.mouse = ""
 
 require("settings.plugins")

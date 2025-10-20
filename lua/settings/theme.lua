@@ -22,8 +22,18 @@ catppuccin.setup({
     compile_path = vim.fn.stdpath "cache" .. "/catppuccin"
 })
 
+vim.opt.relativenumber = true
+vim.opt.number = true
+vim.opt.cursorline = true
+vim.opt.cursorlineopt = "number"
+
+vim.opt.termguicolors = true
+vim.opt.showtabline = 2
+vim.opt.cmdheight = 0
+
 -- Color overrides
 vim.api.nvim_set_hl(0, "LineNrAbove", { fg=mocha.lavender, bold=false })
 vim.api.nvim_set_hl(0, "LineNr", { fg=mocha.lavender, bold=true })
+vim.api.nvim_set_hl(0, "CursorLineNr", { fg=mocha.lavender, bold=true })
 vim.api.nvim_set_hl(0, "LineNrBelow", { fg=mocha.lavender, bold=false })
 vim.api.nvim_set_hl(0, "MsgArea", { bg=mocha.crust, bold=false })
