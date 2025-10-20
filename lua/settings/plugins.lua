@@ -2,6 +2,7 @@
 require("mini.surround").setup()
 require("plugins.extra.mini-surround")
 require("plugins.completion.autopairs.config")
+require("plugins.filetype.render-markdown.config")
 
 -- Filetypes
 vim.filetype.add({

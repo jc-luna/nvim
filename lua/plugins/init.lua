@@ -11,6 +11,7 @@ return {
 	require("plugins.navigation.tmux-navigation"),
 
 	require("plugins.filetype.vimtex"),
+	require("plugins.filetype.render-markdown"),
 	require("plugins.filetype.cmake-tools"),
 	require("plugins.filetype.roblox.rojo"),
 	require("plugins.filetype.roblox.luau-lsp"),
