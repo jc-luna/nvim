@@ -1,4 +1,5 @@
--- Catppuccin
+-- vim:foldmethod=marker
+-- Catppuccin {{{
 local catppuccin = require("catppuccin")
 local mocha = require("catppuccin.palettes.mocha")
 
@@ -23,6 +24,7 @@ catppuccin.setup({
 })
 
 vim.cmd.colorscheme("catppuccin-mocha")
+-- }}}
 
 vim.opt.relativenumber = true
 vim.opt.number = true
@@ -33,7 +35,7 @@ vim.opt.termguicolors = true
 vim.opt.showtabline = 2
 vim.opt.cmdheight = 0
 
--- Color overrides
+-- Color overrides {{{
 vim.api.nvim_set_hl(0, "LineNrAbove", { fg=mocha.lavender, bold=false })
 vim.api.nvim_set_hl(0, "LineNr", { fg=mocha.lavender, bold=true })
 vim.api.nvim_set_hl(0, "CursorLineNr", { fg=mocha.lavender, bold=true })
@@ -47,3 +49,4 @@ vim.cmd.highlight("NonText cterm = none")
 
 vim.cmd.highlight("TabLine guibg = none")
 vim.cmd.highlight("TabLineFill guibg = none")
+-- }}}
