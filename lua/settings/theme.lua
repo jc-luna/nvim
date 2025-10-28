@@ -35,6 +35,11 @@ vim.opt.termguicolors = true
 vim.opt.showtabline = 2
 vim.opt.cmdheight = 0
 
+vim.opt.wrap = false
+vim.opt.sidescrolloff = 8
+vim.opt.textwidth = 100
+vim.opt.colorcolumn = "+0"
+
 -- Color overrides {{{
 vim.api.nvim_set_hl(0, "LineNrAbove", { fg=mocha.lavender, bold=false })
 vim.api.nvim_set_hl(0, "LineNr", { fg=mocha.lavender, bold=true })
