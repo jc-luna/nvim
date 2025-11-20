@@ -11,7 +11,7 @@ return {
 		i(1, "Plots."), t({"default(titlefont=(12, \"Helvetica\"),",
 				"\tguidefont=(12, \"Helvetica\"),",
 				"\ttickfont=(12, \"Helvetica\"),",
-				"\tlegendfont=(12, \"Helvetica\")",
+				"\tlegendfont=(12, \"Helvetica\"),",
 				"\ttopmargin=5"}), extras.rep(1), t({"mm,",
 				"\tbottommargin=5"}), extras.rep(1), t({"mm,",
 				"\tleftmargin=5"}), extras.rep(1), t({"mm,",
