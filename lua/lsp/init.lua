@@ -5,6 +5,7 @@ return {
 
 	require("lsp.clangd"),
 	require("lsp.cmake"),
+	require("lsp.qml"),
 
 	require("lsp.lua"),
 	require("lsp.luau"),
