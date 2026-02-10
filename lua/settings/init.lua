@@ -10,6 +10,11 @@ vim.opt.softtabstop = 4
 vim.opt.shiftwidth = 4
 vim.opt.copyindent = true
 
-vim.opt.autoread = true
+vim.o.autoread = true
+vim.api.nvim_create_autocmd(
+	{ "CursorHold", "CursorHoldI", "FocusGained", "BufWinEnter" }, {
+	command = "checktime",
+	pattern = { "*" },
+})
 
 vim.opt.mouse = ""
