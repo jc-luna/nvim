@@ -40,6 +40,13 @@ vim.opt.sidescrolloff = 8
 vim.opt.textwidth = 100
 vim.opt.colorcolumn = "+0"
 
+-- Cursor character restoration
+local cursor_character_augroup = vim.api.nvim_create_augroup("cursor_character", { clear = true })
+vim.api.nvim_create_autocmd({"VimLeave"}, {
+	group = cursor_character_augroup,
+	command = "set guicursor=a:ver20"
+})
+
 -- Color overrides {{{
 vim.api.nvim_set_hl(0, "LineNrAbove", { fg=mocha.lavender, bold=false })
 vim.api.nvim_set_hl(0, "LineNr", { fg=mocha.lavender, bold=true })
