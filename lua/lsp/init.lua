@@ -1,3 +1,10 @@
+vim.api.nvim_create_autocmd("LspAttach", {
+	callback = function(ev)
+		vim.keymap.set("n", "gd", "<cmd>lua vim.lsp.buf.declaration()<CR>")
+		vim.keymap.set("n", "gD", "<cmd>lua vim.lsp.buf.definition()<CR>")
+	end
+})
+
 return {
 	require("lsp.python"),
 	require("lsp.julia"),

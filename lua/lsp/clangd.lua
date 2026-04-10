@@ -1,6 +1,6 @@
 vim.lsp.config.clangd = {
 	cmd = { "clangd", "--header-insertion=never" },
-	filetypes = { "c", "cpp", "h" },
+	filetypes = { "c", "cpp", "h", "hpp" },
 	init_options = { }
 }
 
