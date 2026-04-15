@@ -1,6 +1,7 @@
 -- Specs
 return {
 	require("plugins.themes.catppuccin.init"),
+	require("plugins.themes.tabby"),
 
 	require("plugins.completion.blink"),
 	require("plugins.completion.lua-snippets"),
