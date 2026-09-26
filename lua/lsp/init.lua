@@ -17,4 +17,5 @@ return {
 
 	require("lsp.lua"),
 	require("lsp.luau"),
+	require("lsp.zig"),
 }
